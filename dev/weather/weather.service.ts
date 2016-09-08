@@ -26,6 +26,7 @@ export class WeatherService{
             .catch( error => {
                 console.error(error);
                 return Observable.throw(error.json());
-            } )
+            }
+         )
     }
 }
